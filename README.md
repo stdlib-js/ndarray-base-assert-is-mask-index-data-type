@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@deno/mod.js';
+import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@v0.1.0-deno/mod.js';
 ```
 
 #### isMaskIndexDataType( value )
@@ -88,7 +88,7 @@ bool = isMaskIndexDataType( 'uint8' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@deno/mod.js';
+import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@v0.1.0-deno/mod.js';
 
 var bool = isMaskIndexDataType( 'binary' );
 // returns false
