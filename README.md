@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-mask-index-data-type/tags). For example,
+
+```javascript
 import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@v0.1.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isMaskIndexDataType( 'uint8' );
 <body>
 <script type="module">
 
-import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@v0.1.0-esm/index.mjs';
+import isMaskIndexDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-mask-index-data-type@esm/index.mjs';
 
 var bool = isMaskIndexDataType( 'binary' );
 // returns false
